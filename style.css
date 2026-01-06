@@ -1,1 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #1e90ff, #00bcd4);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #ffffff;
+  color: #1e90ff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
 
